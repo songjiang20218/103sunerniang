@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html style='height:100%;margin:0;padding:0;'>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;" />
+    <style type="text/css"></style>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <!-- <script>
+        var u = navigator.userAgent;
+        if (u.indexOf('Android') > -1 || u.indexOf('Adr') > -1 || !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)) {
+            window.onload = () => {
+                document.getElementsByTagName("body")[0].style.height = document.body.scrollHeight + "px";
+                document.getElementsByTagName("body")[0].style.width = document.body.scrollWidth + "px";
+                document.getElementsByTagName("body")[0].style.minHeight = document.body.scrollHeight + "px";
+                document.getElementsByTagName("body")[0].style.minWidth = document.body.scrollWidth + "px";
+            }
+        } else {}
+    </script> -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+        }
+
+        .video {
+            position: absolute;
+            height: auto;
+            max-height: 100vh;
+            width: 100%;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        .div {
+            height: 10vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <video class="video" autoplay muted playsinline webkit-playsinline controls loop src="video.MP4">
+        您的浏览器不支持 video 标签。
+    </video>
+    <div></div>
+</body>
+
+</html>
