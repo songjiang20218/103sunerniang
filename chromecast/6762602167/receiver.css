@@ -1,0 +1,24 @@
+/* 左上角
+body {  
+    --playback-logo-image: url('https://img2.baidu.com/it/u=3657857727,2581836778&fm=253&fmt=auto&app=138&f=JPEG?w=30&h=36');
+}
+*/
+/*
+cast-media-player {
+    --theme-hue: 100;
+    --progress-color: rgb(0, 255, 0);
+    --splash-image: url('https://img2.baidu.com/it/u=3657857727,2581836778&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=1066');
+    --splash-size: cover;
+    --background-image: url('https://img2.baidu.com/it/u=3657857727,2581836778&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=600');
+    --background-size: cover;
+    --background-color: rgb(223, 60, 23);
+}
+h1 {
+    color: rgb(0, 252, 92);
+}
+*/
+
+#remoteVideo {
+    width: 100%;
+    height: 100vh;
+}
