@@ -1,5 +1,5 @@
 export const context = cast.framework.CastReceiverContext.getInstance();
-export const CHANNEL = "urn:x-cast:com.infrared.chromecast";
+export const CHANNEL = "urn:x-cast:com.ultraform.Castify";
 
 const options = new cast.framework.CastReceiverOptions();
 options.disableIdleTimeout = true;
